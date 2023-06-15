@@ -42,7 +42,17 @@ const moo = (a) => {
 console.log(moo(animal));
 //Driver's Ed
 
+let age = 18; 
+
+if (age >= 16) {
+  console.log("Here are the keys!");
+} else {
+  console.log("Sorry, you're too young.");
+}
+
 //LOOPS
+// Remember: USE letwhen you initialize your for loops!
+for(let i = 0; i < 100; i++);
 
 //The Basics
 
