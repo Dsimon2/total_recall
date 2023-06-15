@@ -15,3 +15,17 @@
 // Assigning a value to a variable means giving it a specific value to hold. It involves using the assignment operator (=)  For example: let a = 0
 // Definition in JavaScript is the process of creating a new variable and giving it a name and a value.
 // *************************************************************
+
+What is pseudocoding and why should you do it?
+Pseudocode is a high-level, human-readable description of an algorithm or program. 
+It is used to plan and describe the logic of a program without getting bogged down in the details of a specific programming language.
+Pseudocode is a useful tool for programmers because it can help them:
+Plan and design programs
+Communicate with other programmers
+
+******************************************************************
+What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+There is no general answer but a general guideline often referred to as the "80-20 rule" suggests that you should spend 
+about 80% of your time planning and thinking about the problem and 20% of your time on actual implementation. 
+This rule highlights the importance of investing ample time in understanding the problem, analyzing requirements, designing a solution, and considering potential edge cases and pitfalls before writing the code.
+
