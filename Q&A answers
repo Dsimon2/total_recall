@@ -1,0 +1,17 @@
+// How do we assign a value to a variable?
+// With the assignment operator
+// ***********************************************************
+
+// How do we change the value of a variable?
+// You assign a new value to the variable 
+// ********************************************************
+
+// How do we assign an existing variable to a new variable?
+// We assign the original variable to a new variable using "="
+// ***********************************************************
+
+// Remind me, what are declare, assign, and define?
+// Declare involves using a keyword such as var, let, or const followed by the variable name. 
+// Assigning a value to a variable means giving it a specific value to hold. It involves using the assignment operator (=)  For example: let a = 0
+// Definition in JavaScript is the process of creating a new variable and giving it a name and a value.
+// *************************************************************
