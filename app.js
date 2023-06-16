@@ -144,10 +144,80 @@ console.log(randomThings1);
 
 // D. Change values
 // Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-
 // What would you write to access the 3rd element of the array? 
-// Change the value of "Github" to "Octocat" Add a new element, "Cloud City" to the array
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+const thirdElement = ourClass[2];
+console.log(thirdElement); // Output: "Sardine"
 
+// Change the value of "Github" to "Octocat" Add a new element, "Cloud City" to the array
+ourClass[4] = "Octocat";
+console.log(ourClass); // Output: ["Salty", "Zoom", "Sardine", "Slack", "Octocat"]
+
+// E. Mix It Up
+// Given the following array: const myArray = [5, 10, 500, 20]
+
+// Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+
+
+// Remove the 5from the beginning of the array.
+// Add the string "Bob Marley"to the beginning of the array.
+// Remove the string of your choice from the end of the array.
+// Reverse this array using Array.prototype.reverse().
+// Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+
+const myArray = [5, 10, 500, 20];
+
+myArray.push("Aegon");
+myArray.push("Hello");
+
+myArray.shift();
+
+myArray.unshift("Bob Marley");
+
+myArray.pop();
+
+myArray.reverse();
+
+console.log(myArray);
+
+// Mutating an array means modifying the array itself, changing its elements, order, or length. 
+// In this case, the array is mutated by adding and removing elements, as well as reversing its order.
+
+// F. Biggie Smalls
+// Create a variable that contains an integer.
+
+// Write an if ... else statement that:
+
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s "big number" if the number is greater than or equal to 100.
+
+const number = 75;
+
+if (number < 100) {
+  console.log("little number");
+} else {
+  console.log("big number");
+}
+
+// G. Monkey in the Middle
+// Write an if ... else if ... else statement:
+
+// console.log()little numberif the number entered is less than 5.
+// If the number entered is more than 10, log big number.
+// Otherwise, log "monkey".
+
+const number1 = 7;
+
+if (number1 < 5) {
+  console.log("little number");
+} else if (number1 > 10) {
+  console.log("big number");
+} else {
+  console.log("monkey");
+}
+
+// H. What's in Your Closet?
+// Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
 
 
 
